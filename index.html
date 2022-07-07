@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Evolutionary Something</title>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="/style.css" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.9.0/p5.js"></script>
+    <script src="./script.js" defer></script>
+    <script src="./base.js" defer></script>
+  </head>
+  <body>
+    <select id="dropper"></select>
+    <button id="restart">
+      restart
+    </button>
+    <p>
+      Mutation rate (<span id="rate"></span>%):<br /><input
+        id="slider"
+        type="range"
+        min="1"
+        max="100"
+        value="100"
+      />
+    </p>
+    <p id="active"></p>
+    <p>Active score: <span id="activeScore"></span></p>
+    <p>Exploration rate: <span id="fpsCounter"></span> fps</p>
+    <p id="best"></p>
+    <p>Best score: <span id="bestScore"></span></p>
+    <p id="memory" data-max-items="16"></p>
+  </body>
+</html>
