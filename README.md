@@ -1,10 +1,10 @@
-# Bezier Birds
+# Bézier Birds
 
 Credit: Adam Smith
 Edited by: Julian Cady
 
-I tried to use a 2d array of numbers that were expressed as two-pointed curved shapes made of Bezier curves because:
-	1) I wanted to try using Bezier curves in p5js.
+I tried to use a 2d array of numbers that were expressed as two-pointed curved shapes made of Bézier curves because:
+	1) I wanted to try using Bézier curves in p5js.
 	2) They're the sort of shape I tend to use most when I make vector art.
 I wanted to use an array of varying length specifically because I wanted to try making it so the program didn't rely on hard-coding the base images.
 
